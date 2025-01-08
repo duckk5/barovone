@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>바로보네</title>
+
+    
+    <!-- 스타일 연결 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- 제이쿼리 연결 -->
+    <script src="js/jquery-3.7.1.js"></script>
+
+    <!-- Swiper -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="css/swiper.css">
+    <script src="js/script.js"></script>
+
+    <!-- 웹폰트 연결 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+
+</head>
+<body>
+
+    <div class="wrap">
+        <header>
+            <div class="upper_header">
+                <div class="logo">
+                    <img src="img/logo1.png" alt="바로보네">
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="젋은 거장 김애란, 13년만의 장편소설">
+                    <button><img src="img/Icon-search.png" alt="검색하기"></button>
+                </div>
+                <div class="sub_menu">
+                    <ul class="spot">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                    </ul>
+                    <ul class="quick">
+                        <li><a href="#"><img src="img/Icon1.png" alt="찜목록"></a></li>
+                        <li><a href="#"><img src="img/Icon2.png" alt="마이페이지"></a></li>
+                        <li><a href="#"><img src="img/Icon3.png" alt="배송조회"></a></li>
+                        <li><a href="#"><img src="img/Icon4.png" alt="장바구니"></a></li>
+                    </ul>
+                    <div class="ham_menu">
+                        <a href="#"><img src="img/ham-menu.png" alt="ham-menu"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="lower_header">
+                <ul class="main_nav">
+                    <li>
+                        <a href="#">
+                            <img src="img/icon_prize.svg" alt="트로피 아이콘">
+                            노벨문학상 한강
+                        </a>
+                    </li>
+                    <li><a href="#">베스트셀러</a></li>
+                    <li><a href="#">새로나온책</a></li>
+                    <li><a href="#">새로나온책</a></li>
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">테마추천</a></li>
+                    <li><a href="#">바로보네서점</a></li>
+                    <li><a href="#">특가</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- header end -->
+        <section class="main">
+            <!-- Swiper -->
+            <div class="swiper mainSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/slide1.jpg" alt="slide1">
+                            <img src="img/slide1_mo.jpg" alt="slide1">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/slide2.jpg" alt="slide2">
+                            <img src="img/slide2_mo.jpg" alt="slide2">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/slide3.jpg" alt="slide3">
+                            <img src="img/slide3_mo.jpg" alt="slide3">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/slide4.jpg" alt="slide4">
+                            <img src="img/slide4_mo.jpg" alt="slide4">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/slide5.jpg" alt="slide5">
+                            <img src="img/slide5_mo.jpg" alt="slide5">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- main section end -->
+        <section class="sec1">
+            <div class="txt">
+                <h2>동네 서점을 만나는<br>새로운 방법!</h2>
+                <p>
+                    우리 동네 서점에서 픽업하고 특별 이벤트에<br> 
+                    적립금까지 다양한 혜택을 받아가세요!
+                </p>
+                <button>
+                    우리 동네 서점 찾기
+                    <img src="img/right-arrow.png" alt="우리 동네 서점 찾기">
+                </button>
+            </div>
+            <div class="sub_txt">
+                <h2>동네 서점에서<br>픽업하고<br>다양한 혜택까지!</h2>
+            </div>
+            <ul class="con_wrap">
+                <li class="con">
+                    <div>
+                        <div class="bg"></div>
+                        <h3>이달의 서점</h3>
+                    </div>
+                    <img src="img/store.jpg" alt="이달의 서점">
+                    <button><img src="img/quick.png" alt="바로가기"></button>
+                </li>
+                <li class="con">
+                    <div>
+                        <div class="bg"></div>
+                        <h3>이벤트</h3>
+                    </div>
+                    <img src="img/event.jpg" alt="이벤트">
+                    <button><img src="img/quick.png" alt="바로가기"></button>
+                </li>
+            </ul>
+        </section>
+        <!-- section1 end -->
+        <section class="sec2">
+            <div class="top">
+                <h2 class="title">베스트셀러</h2>
+                <div class="more">
+                    <a href="#">
+                        <div class="view_more">+</div>
+                        <p>더보기</p>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper categorySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide on"><a href="#">종합</a></div>
+                    <div class="swiper-slide"><a href="#">예술/대중문화</a></div>
+                    <div class="swiper-slide"><a href="#">청소년</a></div>
+                    <div class="swiper-slide"><a href="#">경제/경영</a></div>
+                    <div class="swiper-slide"><a href="#">인문</a></div>
+                    <div class="swiper-slide"><a href="#">가정/건강/생활</a></div>
+                    <div class="swiper-slide"><a href="#">유아</a></div>
+                    <div class="swiper-slide"><a href="#">문학</a></div>
+                    <div class="swiper-slide"><a href="#">어린이</a></div>
+                </div>
+            </div>
+            <div class="swiper conSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/best1.jpg" alt="best1">
+                                <div class="label">
+                                    <img src="img/label.png" alt="순위">
+                                    <span>1</span>
+                                </div>
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>소년이 온다 : 한강 장편소설<br>(2024 노벨문학상 수상작가)</h3>
+                                <p>한강 / 창비</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/best2.jpg" alt="best2">
+                                <div class="label">
+                                    <img src="img/label.png" alt="순위">
+                                    <span>2</span>
+                                </div>
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>채식주의자 : 한강 장편소설 (개정판)<br>(2024 노벨문학상 수상작가)</h3>
+                                <p>한강 / 창비</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/best3.jpg" alt="best3">
+                                <div class="label">
+                                    <img src="img/label.png" alt="순위">
+                                    <span>3</span>
+                                </div>
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>작별하지 않는다 : 한강 장편소설<br>(2024 노벨문학상 수상작가)</h3>
+                                <p>한강 / 창비</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/best4.jpg" alt="best4">
+                                <div class="label">
+                                    <img src="img/label.png" alt="순위">
+                                    <span>4</span>
+                                </div>
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>서랍에 저녁을 넣어 두었다 : 한강 시집<br>(2024 노벨문학상 수상작가)</h3>
+                                <p>한강 / 문학과지성사</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/best5.jpg" alt="best5">
+                                <div class="label">
+                                    <img src="img/label.png" alt="순위">
+                                    <span>5</span>
+                                </div>
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>흰 : 한강 소설<br>(2024 노벨문학상 수상작가)</h3>
+                                <p>한강 저, 최진혁 사진 / 문학동네</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/best6.jpg" alt="best6">
+                                <div class="label">
+                                    <img src="img/label.png" alt="순위">
+                                    <span>6</span>
+                                </div>
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>어른의 행복은 조용하다</h3>
+                                <p>태수 / 페이지2북스</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/best7.jpg" alt="best7">
+                                <div class="label">
+                                    <img src="img/label.png" alt="순위">
+                                    <span>7</span>
+                                </div>
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>퓨처 셀프 : 현재와 미래가 달라지는<br>놀라운 혁명</h3>
+                                <p>벤저민 하디 / 상상스퀘어</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/best8.jpg" alt="best8">
+                                <div class="label">
+                                    <img src="img/label.png" alt="순위">
+                                    <span>8</span>
+                                </div>
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>트렌드 코리아 2025<br>: 2025 대한민국 소비트렌드 전망</h3>
+                                <p>김난도, 전미영, 최지혜, 권정윤, 한다혜...</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/best9.jpg" alt="best9">
+                                <div class="label">
+                                    <img src="img/label.png" alt="순위">
+                                    <span>9</span>
+                                </div>
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>나의 두 번째 교과서 x 궤도의 다시<br>만난 과학</h3>
+                                <p>궤도, 송영조 / 페이지2북스</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/best10.jpg" alt="best10">
+                                <div class="label">
+                                    <img src="img/label.png" alt="순위">
+                                    <span>10</span>
+                                </div>
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>당신에게 분명 좋은 일만 생길 거예요</h3>
+                                <p>이슬비 / 다담북스</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+            <ul class="con_mobile">
+                <!-- 1열 -->
+                <li>
+                    <div class="con">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/best1.jpg" alt="best1">
+                                <div class="label">
+                                    <img src="img/label.png" alt="순위">
+                                    <span>1</span>
+                                </div>
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>소년이 온다 : 한강 장편소설 (2024 노벨문학상 수상작가)</h3>
+                                <p>한강 / 창비</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/best2.jpg" alt="best2">
+                                <div class="label">
+                                    <img src="img/label.png" alt="순위">
+                                    <span>2</span>
+                                </div>
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>채식주의자 : 한강 장편소설 (개정판) (2024 노벨문학상 수상작가)</h3>
+                                <p>한강 / 창비</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <!-- 2열 -->
+                <li>
+                    <div class="con">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/best3.jpg" alt="best3">
+                                <div class="label">
+                                    <img src="img/label.png" alt="순위">
+                                    <span>3</span>
+                                </div>
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>작별하지 않는다 : 한강 장편소설 (2024 노벨문학상 수상작가)</h3>
+                                <p>한강 / 창비</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="#">
+                        <div class="bk_img">
+                            <div class="bg"></div>
+                            <img src="img/best4.jpg" alt="best4">
+                            <div class="label">
+                                <img src="img/label.png" alt="순위">
+                                <span>4</span>
+                            </div>
+                            <div class="hover"><button>+</button></div>
+                        </div>
+                        <div class="txt">
+                            <h3>서랍에 저녁을 넣어 두었다 : 한강 시집 (2024 노벨문학상 수상작가)</h3>
+                            <p>한강 / 문학과지성사</p>
+                        </div>
+                    </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- section2 end -->
+        <section class="sec3">
+            <div class="top">
+                <h2 class="title">새로나온 책</h2>
+                <div class="more">
+                    <a href="#">
+                        <div class="view_more">+</div>
+                        <p>더보기</p>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper categorySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide on"><a href="#">종합</a></div>
+                    <div class="swiper-slide"><a href="#">예술/대중문화</a></div>
+                    <div class="swiper-slide"><a href="#">청소년</a></div>
+                    <div class="swiper-slide"><a href="#">경제/경영</a></div>
+                    <div class="swiper-slide"><a href="#">인문</a></div>
+                    <div class="swiper-slide"><a href="#">가정/건강/생활</a></div>
+                    <div class="swiper-slide"><a href="#">유아</a></div>
+                    <div class="swiper-slide"><a href="#">문학</a></div>
+                    <div class="swiper-slide"><a href="#">어린이</a></div>
+                </div>
+            </div>
+            <div class="swiper conSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/new1.jpg" alt="new1">
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>김미경의 딥마인드 : 열심히 살아<br>봤지만 허무함에 지친 당신을 위한 </h3>
+                                <p>김미경 / 어웨이크북스</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/new2.jpg" alt="new2">
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>트럼프 2.0 시대 : 글로벌 대격변이<br>시작된다</h3>
+                                <p>박종훈 / 글로퍼스</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/new3.jpg" alt="new3">
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>모우어</h3>
+                                <p>천선란 / 문학동네</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/new4.jpg" alt="new4">
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>죄의 끝</h3>
+                                <p>히가시야마 아키라 / 해피북스투유</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/new5.jpg" alt="new5">
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>김대리의 취향 니트 : 쉽게 뜨고 핏하게<br>입는 탑다운 뜨개 10</h3>
+                                <p>바늘이야기 김대리 / 웅진리빙하우스</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/new6.jpg" alt="new6">
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>말의 힘 : 나를 바꾸고 운명을 바꾸는<br>긍정의 기술</h3>
+                                <p>윤석금 / 웅진지식하우스</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/new7.jpg" alt="new7">
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>어떤 비밀</h3>
+                                <p>최진영 / 난다</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/new8.jpg" alt="new8">
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>해피버쓰데이 : 백희나 그림책 (양장)</h3>
+                                <p>백희나 / Storybowl(스토리보울)</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/new9.jpg" alt="new9">
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>[사인인쇄본] 한강 스페셜 에디션<br>: 작별하지 않는다+흰+검은사슴+필...</h3>
+                                <p>한강 / 문학동네</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/new10.jpg" alt="new10">
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>자그맣고 커다란 고릴라<br>: 반대와 반대의 세계</h3>
+                                <p>앤서니 브라운 / 웅진주니어</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+            <ul class="con_mobile">
+                <!-- 1열 -->
+                <li>
+                    <div class="con">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/new1.jpg" alt="new1">
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>김미경의 딥마인드 : 열심히 살아 봤지만 허무함에 지친 당신을 위한 </h3>
+                                <p>김미경 / 어웨이크북스</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/new2.jpg" alt="new2">
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>트럼프 2.0 시대 : 글로벌 대격변이 시작된다</h3>
+                                <p>박종훈 / 글로퍼스</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <!-- 2열 -->
+                <li>
+                    <div class="con">
+                        <a href="#">
+                            <div class="bk_img">
+                                <div class="bg"></div>
+                                <img src="img/new3.jpg" alt="new3">
+                                <div class="hover"><button>+</button></div>
+                            </div>
+                            <div class="txt">
+                                <h3>모우어</h3>
+                                <p>천선란 / 문학동네</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="#">
+                        <div class="bk_img">
+                            <div class="bg"></div>
+                            <img src="img/new4.jpg" alt="new4">
+                            <div class="hover"><button>+</button></div>
+                        </div>
+                        <div class="txt">
+                            <h3>죄의 끝</h3>
+                            <p>히가시야마 아키라 / 해피북스투유</p>
+                        </div>
+                    </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- section3 end -->
+        <section class="sec4">
+            <div class="top">
+                <h2 class="title">편집자 추천</h2>
+                <div class="more">
+                    <a href="#">
+                        <div class="view_more">+</div>
+                        <p>더보기</p>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper categorySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide on"><a href="#">종합</a></div>
+                    <div class="swiper-slide"><a href="#">예술/대중문화</a></div>
+                    <div class="swiper-slide"><a href="#">청소년</a></div>
+                    <div class="swiper-slide"><a href="#">경제/경영</a></div>
+                    <div class="swiper-slide"><a href="#">인문</a></div>
+                    <div class="swiper-slide"><a href="#">가정/건강/생활</a></div>
+                    <div class="swiper-slide"><a href="#">유아</a></div>
+                    <div class="swiper-slide"><a href="#">문학</a></div>
+                    <div class="swiper-slide"><a href="#">어린이</a></div>
+                </div>
+            </div>
+            <div class="con1">
+                <div class="mainRec">
+                    <div class="bk_img">
+                        <a href="#">
+                            <div class="bg"></div>
+                            <img src="img/rec1.jpg" alt="rec1">
+                            <div class="hover"><button>+</button></div>
+                        </a>
+                    </div>
+                    <div class="txt">
+                        <h3>멜라지는 마음<br>(현대문학 핀 시리즈 에세이 3)</h3>
+                        <span>김멜라</span>
+                        <h4>
+                            <span>10%</span>
+                            <span>15,120원</span>
+                        </h4>
+                        <p>
+                            지금 가장 주목받는 소설가 김멜라 첫 에세이!
+                            ‘멜라’라는 이름에 얽힌 내밀한 첫 고백과, ‘내 중심, 
+                            나의 첫 번째, 나의 가장 소중한 것’을 바로 세우려 
+                            쓴 이 글들에는 ‘기쁘고 충만한 멜라의 일상’ 안에 
+                            반짝이는 삶의 경이가 담겨 있다.
+                        </p>
+                    </div>
+                </div>
+                <ul class="card_story">
+                    <li><img src="img/card1.jpg" alt="card1"></li>
+                    <li><img src="img/card2.jpg" alt="card2"></li>
+                    <li><img src="img/card3.jpg" alt="card3"></li>
+                </ul>
+            </div>
+            <ul class="con2">
+                <li>
+                    <a href="#">
+                        <div class="bk_img">
+                            <div class="bg"></div>
+                            <img src="img/rec2.jpg" alt="rec2">
+                            <div class="hover"><button>+</button></div>
+                        </div>
+                        <div class="txt">
+                            <h3>크리스마스 날, 하늘 마을에서 온 택배- 따끈따끈 책방</h3>
+                            <p>김경미 / 슈크림북</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="bk_img">
+                            <div class="bg"></div>
+                            <img src="img/rec3.jpg" alt="rec3">
+                            <div class="hover"><button>+</button></div>
+                        </div>
+                        <div class="txt">
+                            <h3>마음의 기술 : 부정적 감정을 지우는 효과적인 뇌 사용법</h3>
+                            <p>안-엘렌 클레르, 뱅상 트리부 / 상상스퀘어</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="bk_img">
+                            <div class="bg"></div>
+                            <img src="img/rec4.jpg" alt="rec4">
+                            <div class="hover"><button>+</button></div>
+                        </div>
+                        <div class="txt">
+                            <h3>당신을 알기 전에는 시 없이도 잘 지냈습니다</h3>
+                            <p>류시화 / 수오서재</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="bk_img">
+                            <div class="bg"></div>
+                            <img src="img/rec5.jpg" alt="rec5">
+                            <div class="hover"><button>+</button></div>
+                        </div>
+                        <div class="txt">
+                            <h3>일의 감각 (양장)</h3>
+                            <p>조수용 / B Media Company</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="bk_img">
+                            <div class="bg"></div>
+                            <img src="img/rec6.jpg" alt="rec6">
+                            <div class="hover"><button>+</button></div>
+                        </div>
+                        <div class="txt">
+                            <h3>라이프 재킷 - 창비청소년문학 127</h3>
+                            <p>이현 / 창비</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!-- section4 end -->
+        <section class="sec5">
+            <div class="con_wrap">
+                <p>
+                    <span>공지사항</span>
+                    <span>2024년 추석 연휴 배송일정 및 고객센터 운영 일정 안내</span>
+                </p>
+                <button>전체보기 ></button>
+            </div>
+        </section>
+        <!-- section5 end -->
+        <footer>
+            <div class="upper_footer">
+                <div class="con1">
+                    <h4>Customer Center</h4>
+                    <h3>031-955-2840</h3>
+                    <p>AM 09:00 ~ PM 18:00(점심 12:00 ~ 13:00)<br>토,일요일 및 공휴일 휴무</p>
+                    <ul class="quick">
+                        <li>
+                            <a href="#">FAQ<img src="img/arrow-black.png" alt="arrow"></a>
+                        </li>
+                        <li>
+                            <a href="#">1:1고객상담<img src="img/arrow-black.png" alt="arrow"></a>
+                        </li>
+                        <li>
+                            <a href="#">서점가입문의<img src="img/arrow-black.png" alt="arrow"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="con2">
+                    <ul class="fmenu">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">바로보네서점</a></li>
+                        <li><a href="#">법인대량구매</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">서점관리자</a></li>
+                    </ul>
+                    <ul class="utility">
+                        <li>(주)웅진북센</li>
+                        <li>대표: 이정훈</li>
+                        <li>주소: [10881]경기도 파주시 문발로 77</li>
+                        <li>개인정보보호책임자: 양상융 yangsy@wjbooxen.com</li>
+                        <li>사업자등록번호: 128-81-22320</li>
+                        <li>통신판매업신고번호: 제2014-경기파주-5439호</li>
+                    </ul>
+                    <p>Copyright© (주)웅진북센 All Right Reserved.</p>
+                </div>
+            </div>
+            <div class="lower_footer">
+                <img src="img/flogo.png" alt="바로보네">
+                <div class="con2">
+                    <ul class="fmenu">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">바로보네서점</a></li>
+                        <li><a href="#">법인대량구매</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">서점관리자</a></li>
+                    </ul>
+                    <ul class="utility">
+                        <li>(주)웅진북센</li>
+                        <li>대표: 이정훈</li>
+                        <li>주소: [10881]경기도 파주시 문발로 77</li>
+                        <li>개인정보보호책임자: 양상융 yangsy@wjbooxen.com</li>
+                        <li>사업자등록번호: 128-81-22320</li>
+                        <li>통신판매업신고번호: 제2014-경기파주-5439호</li>
+                    </ul>
+                    <p>Copyright© (주)웅진북센 All Right Reserved.</p>
+                </div>
+                <div class="fam_site">
+                    <img src="img/pay.png" alt="inicis">
+                    <select>
+                        <option>Family Site</option>
+                        <option>(주)웅진</option>
+                        <option>웅진북센</option>
+                        <option>오더북</option>
+                    </select>
+                </div>
+                
+            </div>
+        </footer>
+        <!-- footer end -->
+    </div>
+    
+</body>
+</html>

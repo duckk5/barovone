@@ -1,0 +1,126 @@
+.wrap {
+    width: 100%;
+    position: relative;
+}
+header, section, footer {
+    width: 100%;
+    padding-right: 200px;
+    padding-left: 200px;
+    position: relative;
+}
+
+/* 섹션 위아래 간격 */
+.sec1, .sec2, .sec3, .sec4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* 섹션 제목 */
+section .title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.more > a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.more .view_more {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #B1B1B1;
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* --------------------- Media Query --------------------- */
+
+/* 1680 */
+@media screen and (max-width: 1680px) {
+    header, section, footer {
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+}
+
+/* 1440 */
+@media screen and (max-width: 1440px) {
+    header, section, footer {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+    /* 섹션 위아래 간격 */
+    .sec1, .sec2, .sec3, .sec4 {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    header, section, footer {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+/* 800 */
+@media screen and (max-width: 800px) {
+    /* 섹션 제목 */
+    section .title {
+        font-size: 35px;
+    }
+    .top {
+        margin-bottom: 20px;
+    }
+    .more {
+        position: absolute;
+        bottom: 75px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+/* 500 */
+@media screen and (max-width: 500px) {
+    header, section, footer {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    /* 섹션 위아래 간격 */
+    .sec1, .sec2, .sec3, .sec4 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* 섹션 제목 */
+    section .title {
+        font-size: 28px;
+    }
+    /* 더보기 */
+    .more {
+        bottom: 50px;
+    }
+    .more > a {
+        gap: 5px;
+        font-size: 12px;
+    }
+    .more .view_more {
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        line-height: 17px;
+    }
+}
